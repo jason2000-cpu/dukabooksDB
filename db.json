@@ -169,13 +169,8 @@
             "userId": 1,
             "activity": "Do an Invoice Inquiry",
             "date":"2023-05-20" 
-        },
-        {
-            "id": 5,
-            "userId": 1,
-            "activity": "Pay Bills",
-            "date": "2023-05-29"
         }
+  
   ]
 
 }
