@@ -1,0 +1,184 @@
+{
+  "users": [
+    {
+        "id": 1,
+        "username": "jackson",
+        "email": "jacksonmuturi2000@gmail.com",
+        "phoneNo": "+254797955092",
+        "password": "@Jack2000"
+    },
+    {
+        "id": 2,
+        "username": "Alice",
+        "email": "alice@gmail.com",
+        "phoneNo": "+25472393209",
+        "password": "@Alice20"
+    },
+    {
+        "id": 3,
+        "username": "lucy",
+        "email": "lucy@gmail.com",
+        "phoneNo": "+25472332893",
+        "password": "@lucy19"
+    }
+
+
+  ],
+  "Invoices": [
+    {
+        "id": 1,
+        "userId": 1,
+        "totalAmntPaid": "4,540",
+        "deposited": "3,065",
+        "notdeposited": "1,475",
+        "totalAmntUnpaid": "5,000",
+        "overdue": "1,000",
+        "notdue": "4,000"
+    },
+    {
+        "id": 1,
+        "userId": 2,
+        "totalAmntPaid": "4,540",
+        "deposited": "3,065",
+        "notdeposited": "1,475",
+        "totalAmntUnpaid": "5,000",
+        "overdue": "1,000",
+        "notdue": "4,000"
+    },
+    {
+        "id": 1,
+        "userId": 3,
+        "totalAmntPaid": "4,540",
+        "deposited": "3,065",
+        "notdeposited": "1,475",
+        "totalAmntUnpaid": "5,000",
+        "overdue": "1,000",
+        "notdue": "4,000"
+    }
+  ],
+  "expenses": [
+    {
+        "id": 1,
+        "userId": 1,
+        "totalExpenses": "5,000",
+        "stock":" 3,000",
+        "transport":"1,000",
+        "electricity":"1,500",
+        "rent":"12,000",
+        "books": "2,000",
+        "soda": "1,400",
+        "maize floor (Bales)": "7,000"
+    },
+    {
+        "id": 2,
+        "userId": 1,
+        "totalExpenses": "5,000",
+        "stock":" 3,000",
+        "transport":"1,000",
+        "electricity":"1,500",
+        "rent":"12,000",
+        "books": "2,000",
+        "soda": "1,400",
+        "maize floor (Bales)": "7,000"
+    },
+    {
+        "id": 3,
+        "userId": 1,
+        "totalExpenses": "5,000",
+        "stock":" 3,000",
+        "transport":"1,000",
+        "electricity":"1,500",
+        "rent":"12,000",
+        "books": "2,000",
+        "soda": "1,400",
+        "maize floor (Bales)": "7,000"
+    }
+
+  ],
+  "sales": [
+    {
+        "id": 1,
+        "userId": 1,
+        "buyer": "SamTech Enterprises",
+        "totalSales": "1,000",
+        "salesItem": "maize floor",
+        "amount": "1 bale",
+        "quantity": "2kg each"
+    },
+    {
+        "id": 2,
+        "userId": 1,
+        "buyer": "Kumi Traders",
+        "totalSales": "1,000",
+        "salesItem": "maize floor",
+        "amount": "1 bale",
+        "quantity": "2kg each"
+    },
+    {
+        "id": 3,
+        "userId": 1,
+        "buyer": "Supa Shop",
+        "totalSales": "1,000",
+        "salesItem": "maize floor",
+        "amount": "1 bale",
+        "quantity": "2kg each"
+    }
+  ],
+  "SalesRevenue": [
+    {
+        "id": 1,
+        "userId": 1,
+        "globalAvg": "20,000",
+        "marketCap":"10,000",
+        "volume": "5,000",
+        "sales": "50,000",
+        "customers": "83",
+        "products": "50",
+        "revenue": "30,000"
+    },
+        {
+        "id": 2,
+        "userId": 2,
+        "globalAvg": "20,000",
+        "marketCap":"10,000",
+        "volume": "5,000",
+        "sales": "50,000",
+        "customers": "83",
+        "products": "50",
+        "revenue": "30,000"
+    }
+  ],
+  "events": [
+        {
+            "id": 1,
+            "userId": 1,
+            "activity": "Restock the shop",
+            "date": "Tommorrow"
+        },
+        {
+            "id": 2,
+            "userId": 1,
+            "activity":"Attend Traders Meeting",
+            "date": "2023-05-10"
+        },
+        {
+            "id": 3,
+            "userId": 1,
+            "activity": "Perform Accountability",
+            "date": "2023-05-15"
+        },
+        {
+            "id": 4,
+            "userId": 1,
+            "activity": "Do an Invoice Inquiry",
+            "date":"2023-05-20" 
+        },
+        {
+            "id": 5,
+            "userId": 1,
+            "activity": "Pay Bills",
+            "date": "2023-05-29"
+        }
+  ]
+
+}
