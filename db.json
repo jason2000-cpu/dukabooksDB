@@ -120,57 +120,5 @@
         "amount": "1 bale",
         "quantity": "2kg each"
     }
-  ],
-  "SalesRevenue": [
-    {
-        "id": 1,
-        "userId": 1,
-        "globalAvg": "20,000",
-        "marketCap":"10,000",
-        "volume": "5,000",
-        "sales": "50,000",
-        "customers": "83",
-        "products": "50",
-        "revenue": "30,000"
-    },
-        {
-        "id": 2,
-        "userId": 2,
-        "globalAvg": "20,000",
-        "marketCap":"10,000",
-        "volume": "5,000",
-        "sales": "50,000",
-        "customers": "83",
-        "products": "50",
-        "revenue": "30,000"
-    }
-  ],
-  "events": [
-        {
-            "id": 1,
-            "userId": 1,
-            "activity": "Restock the shop",
-            "date": "Tommorrow"
-        },
-        {
-            "id": 2,
-            "userId": 1,
-            "activity":"Attend Traders Meeting",
-            "date": "2023-05-10"
-        },
-        {
-            "id": 3,
-            "userId": 1,
-            "activity": "Perform Accountability",
-            "date": "2023-05-15"
-        },
-        {
-            "id": 4,
-            "userId": 1,
-            "activity": "Do an Invoice Inquiry",
-            "date":"2023-05-20" 
-        }
-  
   ]
-
 }
