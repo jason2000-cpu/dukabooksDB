@@ -1,21 +1,18 @@
 {
   "users": [
     {
-        "id": 1,
         "username": "jackson",
         "email": "jacksonmuturi2000@gmail.com",
         "phoneNo": "+254797955092",
         "password": "@Jack2000"
     },
     {
-        "id": 2,
         "username": "Alice",
         "email": "alice@gmail.com",
         "phoneNo": "+25472393209",
         "password": "@Alice20"
     },
     {
-        "id": 3,
         "username": "lucy",
         "email": "lucy@gmail.com",
         "phoneNo": "+25472332893",
